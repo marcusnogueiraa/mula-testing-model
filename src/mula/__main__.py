@@ -3,7 +3,6 @@ from __future__ import annotations
 import argparse
 import sys
 
-
 from .actions import Actions
 from .credentials import Credentials
 from .moodle_api import MoodleAPI

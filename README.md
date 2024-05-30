@@ -179,3 +179,14 @@ $ meucurso rm -i 19234 18234 19234
 # para remover TODOS os vpls do curso
 $ meucurso rm --all
 ```
+
+### Testes Funcionais
+
+Para testar, preencha test/test_properties.json com as informações utilizadas para o test. Os testes são integrados ao moodle, logo você precisa definir o login utilizado nos testes. Ao escrever novos testes, note que é importante desfazer as alterações efetuadas no teste. Para testar, utilize o comando:
+
+```bash
+pytest
+```
+
+
+
